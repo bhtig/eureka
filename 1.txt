@@ -1,3 +1,4 @@
+cd $env:temp
 wget 'bit.ly/3WuTW4p' -OutFile eureka.zip
 Expand-Archive eureka.zip
 cd eureka
